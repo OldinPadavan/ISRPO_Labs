@@ -1,0 +1,25 @@
+c:\users\z329282-21\source\repos\Lab_Two\Lab_Two\obj\Debug\Lab_Two.csprojAssemblyReference.cache
+c:\users\z329282-21\source\repos\Lab_Two\Lab_Two\obj\Debug\MainWindow.g.cs
+c:\users\z329282-21\source\repos\Lab_Two\Lab_Two\obj\Debug\App.g.cs
+c:\users\z329282-21\source\repos\Lab_Two\Lab_Two\obj\Debug\Lab_Two_MarkupCompile.cache
+c:\users\z329282-21\source\repos\Lab_Two\Lab_Two\obj\Debug\Lab_Two_MarkupCompile.lref
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\bin\Debug\Lab_Two.exe.config
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\bin\Debug\Lab_Two.exe
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\bin\Debug\Lab_Two.pdb
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\bin\Debug\EntityFramework.dll
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\bin\Debug\EntityFramework.SqlServer.dll
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\bin\Debug\EntityFramework.xml
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\bin\Debug\EntityFramework.SqlServer.xml
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\obj\Debug\Lab_Two.csprojAssemblyReference.cache
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\obj\Debug\MainWindow.g.cs
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\obj\Debug\App.g.cs
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\obj\Debug\Lab_Two_MarkupCompile.cache
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\obj\Debug\Lab_Two_MarkupCompile.lref
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\obj\Debug\MainWindow.baml
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\obj\Debug\Lab_Two.g.resources
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\obj\Debug\Lab_Two.Properties.Resources.resources
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\obj\Debug\Lab_Two.csproj.GenerateResource.cache
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\obj\Debug\Lab_Two.csproj.CoreCompileInputs.cache
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\obj\Debug\Lab_Two.csproj.CopyComplete
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\obj\Debug\Lab_Two.exe
+E:\Третий курс\ИСРПО\Lab_Two\Lab_Two\obj\Debug\Lab_Two.pdb
