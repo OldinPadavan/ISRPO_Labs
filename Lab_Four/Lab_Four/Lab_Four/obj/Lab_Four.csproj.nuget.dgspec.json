@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Учеба третий курс\\ИСРПО\\Labs\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL).csproj": {}
+    "G:\\Учеба третий курс\\ИСРПО\\Labs\\Lab_Four\\Lab_Four\\Lab_Four\\Lab_Four.csproj": {}
   },
   "projects": {
-    "G:\\Учеба третий курс\\ИСРПО\\Labs\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL).csproj": {
+    "G:\\Учеба третий курс\\ИСРПО\\Labs\\Lab_Four\\Lab_Four\\Lab_Four\\Lab_Four.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Учеба третий курс\\ИСРПО\\Labs\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL).csproj",
-        "projectName": "Lab_Two(PostrgreSQL)",
-        "projectPath": "G:\\Учеба третий курс\\ИСРПО\\Labs\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL).csproj",
+        "projectUniqueName": "G:\\Учеба третий курс\\ИСРПО\\Labs\\Lab_Four\\Lab_Four\\Lab_Four\\Lab_Four.csproj",
+        "projectName": "Lab_Four",
+        "projectPath": "G:\\Учеба третий курс\\ИСРПО\\Labs\\Lab_Four\\Lab_Four\\Lab_Four\\Lab_Four.csproj",
         "packagesPath": "C:\\Users\\shiro\\.nuget\\packages\\",
-        "outputPath": "G:\\Учеба третий курс\\ИСРПО\\Labs\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL)\\obj\\",
+        "outputPath": "G:\\Учеба третий курс\\ИСРПО\\Labs\\Lab_Four\\Lab_Four\\Lab_Four\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,18 +43,6 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.4, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[7.0.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
