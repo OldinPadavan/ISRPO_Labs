@@ -9,10 +9,7 @@ namespace Lab_Two
 {
     class PeopleContext : DbContext
     {
-        public PeopleContext() : base("MyConnectionStrings")
-        {
-
-        }
         public DbSet<Person> Persons {get; set;}
+        public 
     }
 }
