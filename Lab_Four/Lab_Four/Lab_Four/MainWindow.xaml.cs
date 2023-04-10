@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +21,105 @@ namespace Lab_Four
     /// </summary>
     public partial class MainWindow : Window
     {
+        public ObservableCollection<Department> departments { get; set; }
         public MainWindow ( )
         {
             InitializeComponent();
+            departments = new ObservableCollection<Department>()
+            {
+                new Department()
+                {
+                    DepartmentName = "Advanced bionic technology",
+                    Employees = new ObservableCollection<Employee>()
+                    {
+                        new Employee()
+                        {
+                            FirstName = "Isaac",
+                            LastName = "Asimov",
+                            Degree = "M.Sc"
+
+                        },
+
+                        new Employee()
+                        {
+                            FirstName = "Ray",
+                            LastName = "Bradbury",
+                            Degree = "-"
+
+                        },
+
+                        new Employee()
+                        {
+                            FirstName = "Philip",
+                            LastName = "Dick",
+                            Degree = "-"
+
+                        }
+                    }
+                },
+
+                 new Department()
+                {
+                    DepartmentName = "Alien life forms",
+                    Employees = new ObservableCollection<Employee>()
+                    {
+                        new Employee()
+                        {
+                            FirstName = "",
+                            LastName = "",
+                            Degree = ""
+
+                        },
+
+                        new Employee()
+                        {
+                            FirstName = "",
+                            LastName = "",
+                            Degree = ""
+
+                        },
+
+                        new Employee()
+                        {
+                            FirstName = "",
+                            LastName = "",
+                            Degree = ""
+
+                        }
+                    }
+                },
+                 new Department()
+                {
+                    DepartmentName = "Experimental physics and theory of teleportation",
+                    Employees = new ObservableCollection<Employee>()
+                    {
+                        new Employee()
+                        {
+                            FirstName = "",
+                            LastName = "",
+                            Degree = ""
+
+                        },
+
+                        new Employee()
+                        {
+                            FirstName = "",
+                            LastName = "",
+                            Degree = ""
+
+                        },
+
+                        new Employee()
+                        {
+                            FirstName = "",
+                            LastName = "",
+                            Degree = ""
+
+                        }
+                    }
+                }
+            };
+            
         }
     }
 }
