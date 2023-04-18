@@ -7,6 +7,35 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
-    </Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ListBox Name="lbDepartment" Grid.Column="0">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Label Content="{Binding Name}"></Label>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <ListBox Name="lbEmployee" Grid.Column="1" ItemsSource="{Binding ElementName=lbDepartment, Path=SelectedItem.Employee}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <TextBlock Text="{Binding Name}">`</TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <StackPanel Grid.Column="2">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="First name: "/>
+                <TextBlock Name="tbEmployeeName" Text="{Binding ElementName=lbEmployee, Path=SelectedItem.Name}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Last name: "/>
+                <TextBlock Name="tbEmployeeLastName" Text="{Binding ElementName=lbEmployee, Path=SelectedItem.LastName}">
 </Window>

@@ -1081,11 +1081,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Учеба третий курс\\ИСРПО\\Labs\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL).csproj",
+      "projectUniqueName": "F:\\ISRPO\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL).csproj",
       "projectName": "Lab_Two(PostrgreSQL)",
-      "projectPath": "G:\\Учеба третий курс\\ИСРПО\\Labs\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL).csproj",
+      "projectPath": "F:\\ISRPO\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL).csproj",
       "packagesPath": "C:\\Users\\shiro\\.nuget\\packages\\",
-      "outputPath": "G:\\Учеба третий курс\\ИСРПО\\Labs\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL)\\obj\\",
+      "outputPath": "F:\\ISRPO\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL)\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1148,7 +1148,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

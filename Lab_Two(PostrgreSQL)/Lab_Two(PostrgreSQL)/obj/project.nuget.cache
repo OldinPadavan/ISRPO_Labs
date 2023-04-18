@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QcCUb146m4t48d1O6c8KNrg8TZsTjWcIelvsP6/oibSZO5nU1fZ9fHpOSYMzj/YPfU8e4wWKaGZP6idnkYNJjA==",
+  "dgSpecHash": "gpo2jbe6PAfCPwimRuiHDOyo/+XYIMKRSfb0YCJALzgZ9/c13kNyoUyBqebwBXkw1IzxK+YDwXJ6u361mNRXXQ==",
   "success": true,
-  "projectFilePath": "G:\\Учеба третий курс\\ИСРПО\\Labs\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL).csproj",
+  "projectFilePath": "F:\\ISRPO\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL)\\Lab_Two(PostrgreSQL).csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shiro\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\shiro\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
