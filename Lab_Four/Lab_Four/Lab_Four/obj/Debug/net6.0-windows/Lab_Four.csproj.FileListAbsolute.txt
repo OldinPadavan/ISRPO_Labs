@@ -1,0 +1,5 @@
+G:\Учеба третий курс\ИСРПО\Labs\Lab_Four\Lab_Four\Lab_Four\obj\Debug\net6.0-windows\Lab_Four.csproj.AssemblyReference.cache
+G:\Учеба третий курс\ИСРПО\Labs\Lab_Four\Lab_Four\Lab_Four\obj\Debug\net6.0-windows\MainWindow.g.cs
+G:\Учеба третий курс\ИСРПО\Labs\Lab_Four\Lab_Four\Lab_Four\obj\Debug\net6.0-windows\App.g.cs
+G:\Учеба третий курс\ИСРПО\Labs\Lab_Four\Lab_Four\Lab_Four\obj\Debug\net6.0-windows\Lab_Four_MarkupCompile.cache
+G:\Учеба третий курс\ИСРПО\Labs\Lab_Four\Lab_Four\Lab_Four\obj\Debug\net6.0-windows\Lab_Four_MarkupCompile.lref

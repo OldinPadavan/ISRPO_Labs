@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Lab_Two(PostrgreSQL)")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Lab_Four")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Lab_Two(PostrgreSQL)")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Lab_Two(PostrgreSQL)")]
+[assembly: System.Reflection.AssemblyProductAttribute("Lab_Four")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Lab_Four")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
