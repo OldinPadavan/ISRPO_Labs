@@ -12,20 +12,20 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <ListBox Name="lbDepartment" Grid.Column="0">
+        <ListBox Name="lbDepartments" Grid.Column="0">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Grid>
-                        <Label Content="{Binding Name}"></Label>
+                        <Label Content="{Binding DepartmentName}"></Label>
                     </Grid>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-        <ListBox Name="lbEmployee" Grid.Column="1" ItemsSource="{Binding ElementName=lbDepartment, Path=SelectedItem.Employee}">
+        <ListBox Name="lbEmployees" Grid.Column="1" ItemsSource="{Binding ElementName=lbDepartments, Path=SelectedItem.Employees}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Grid>
-                        <TextBlock Text="{Binding Name}">`</TextBlock>
+                        <TextBlock Text="{Binding Lastname}"></TextBlock>
                     </Grid>
                 </DataTemplate>
             </ListBox.ItemTemplate>
@@ -33,9 +33,16 @@
         <StackPanel Grid.Column="2">
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="First name: "/>
-                <TextBlock Name="tbEmployeeName" Text="{Binding ElementName=lbEmployee, Path=SelectedItem.Name}"/>
+                <TextBlock Name="tbEmployeeName" Text="{Binding ElementName=lbEmployees, Path=SelectedItem.Firstname}"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="Last name: "/>
-                <TextBlock Name="tbEmployeeLastName" Text="{Binding ElementName=lbEmployee, Path=SelectedItem.LastName}">
+                <TextBlock Name="tbEmployeeLastName" Text="{Binding ElementName=lbEmployees, Path=SelectedItem.Lastname}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Degree: "/>
+                <TextBlock Name="tbDegree" Text="{Binding ElementName=lbEmployees, Path=SelectedItem.Degree}"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
 </Window>

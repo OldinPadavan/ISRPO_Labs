@@ -34,24 +34,24 @@ namespace Lab_Four
                     {
                         new Employee()
                         {
-                            FirstName = "Isaac",
-                            LastName = "Asimov",
+                            Firstname = "Isaac",
+                            Lastname = "Asimov",
                             Degree = "M.Sc"
 
                         },
 
                         new Employee()
                         {
-                            FirstName = "Ray",
-                            LastName = "Bradbury",
+                            Firstname = "Ray",
+                            Lastname = "Bradbury",
                             Degree = "-"
 
                         },
 
                         new Employee()
                         {
-                            FirstName = "Philip",
-                            LastName = "Dick",
+                            Firstname = "Philip",
+                            Lastname = "Dick",
                             Degree = "-"
 
                         }
@@ -65,25 +65,25 @@ namespace Lab_Four
                     {
                         new Employee()
                         {
-                            FirstName = "",
-                            LastName = "",
-                            Degree = ""
+                            Firstname = "Ellen",
+                            Lastname = "Ripley",
+                            Degree = "MEeng"
 
                         },
 
                         new Employee()
                         {
-                            FirstName = "",
-                            LastName = "",
-                            Degree = ""
+                            Firstname = "Richard",
+                            Lastname = "Tygan",
+                            Degree = "MChem"
 
                         },
 
                         new Employee()
                         {
-                            FirstName = "",
-                            LastName = "",
-                            Degree = ""
+                            Firstname = "Moira",
+                            Lastname = "Vahlen",
+                            Degree = "MSc"
 
                         }
                     }
@@ -95,31 +95,31 @@ namespace Lab_Four
                     {
                         new Employee()
                         {
-                            FirstName = "",
-                            LastName = "",
-                            Degree = ""
+                            Firstname = "Sheldon",
+                            Lastname = "Cooper",
+                            Degree = "ScD"
 
                         },
 
                         new Employee()
                         {
-                            FirstName = "",
-                            LastName = "",
-                            Degree = ""
+                            Firstname = "Leonard",
+                            Lastname = "Hofstadter",
+                            Degree = "PhD"
 
                         },
 
                         new Employee()
                         {
-                            FirstName = "",
-                            LastName = "",
-                            Degree = ""
+                            Firstname = "Reed",
+                            Lastname = "Richards",
+                            Degree = "ScD"
 
                         }
                     }
                 }
             };
-            
+            lbDepartments.ItemsSource = departments;
         }
     }
 }

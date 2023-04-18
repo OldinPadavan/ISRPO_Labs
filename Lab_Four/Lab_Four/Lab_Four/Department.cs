@@ -18,7 +18,7 @@ namespace Lab_Four
             set
             {
                 department_name = value;
-                OnPropertyChanged("Department name");
+                OnPropertyChanged("Department");
             }
         }
         public ObservableCollection<Employee> Employees

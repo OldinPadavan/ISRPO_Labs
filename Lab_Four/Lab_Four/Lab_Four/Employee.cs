@@ -13,24 +13,24 @@ namespace Lab_Four
         string last_name;
         string scholastic_degree; //ученая степень
 
-        public string FirstName
+        public string Firstname
         {
             get { return first_name; }
             set
             {
                 first_name = value;
-                OnPropertyChanged("First name");
+                OnPropertyChanged("Firstname");
                 
             }
         }
 
-        public string LastName
+        public string Lastname
         {
             get { return last_name; }
             set
             {
                 last_name = value;
-                OnPropertyChanged("Last name");
+                OnPropertyChanged("Lastname");
             }
         }
 
